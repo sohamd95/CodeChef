@@ -1,0 +1,14 @@
+[main] rough2 1000 (0) exception: trapped!
+[main] rough2 1000 (0) exception: code 0xC0000005 at 0x4012E7
+[main] rough2 1000 (0) exception: ax 0x120 bx 0x244FF78 cx 0x23D49F8 dx 0x244FEE0
+[main] rough2 1000 (0) exception: si 0x0 di 0x0 bp 0x244FF08 sp 0x23D49AC
+[main] rough2 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] rough2 1000 (0) stack: Stack trace:
+[main] rough2 1000 (0) stack: frame 0: sp = 0x23D43B8, pc = 0x6100A2C3
+[main] rough2 1000 (0) stack: frame 1: sp = 0x23D43F4, pc = 0x77612D41
+[main] rough2 1000 (0) stack: frame 2: sp = 0x23D4418, pc = 0x77612D13
+[main] rough2 1000 (0) stack: frame 3: sp = 0x23D44E0, pc = 0x77612B9B
+[main] rough2 1000 (0) stack: frame 4: sp = 0x244FF08, pc = 0x61004402
+[main] rough2 1000 (0) stack: frame 5: sp = 0x244FF4B, pc = 0x442002
+[main] rough2 1000 (0) handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+[main] rough2 1000 (0) handle_exceptions: Error while dumping state (probably corrupted stack)

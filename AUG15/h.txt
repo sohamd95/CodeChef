@@ -1,0 +1,19 @@
+if(A[i] == K && greaterAfter[i])
+			freq[i] -= (freq[greaterAfter[i]]+1);
+		else if(lessAfter[i]) {
+			int j = lessAfter[i];
+			for (; j <= N; ++j) 
+				if((A[j]) && (A[i] %A[j] == K)) {freq[i] -= N-j+1; break;}
+		}
+
+5 21
+18 18 21 22 3
+
+5 0
+5 4 3 2 1
+
+7 0
+9 8 6 6 4 3 2
+
+5 21
+84 63 21 22 3
